@@ -28,20 +28,11 @@ main {
 }
 
 .container {
-<<<<<<< HEAD
   max-width: 300px;
-=======
-  max-width: 960px;
->>>>>>> b21f591d91a6d57e6308d9de2f713500166e79c2
   width: 100%;
   margin: 0 auto;
 }
 
 .movie {
-<<<<<<< HEAD
-  display: flex;
-  justify-content: center;
-=======
->>>>>>> b21f591d91a6d57e6308d9de2f713500166e79c2
   width: 100%;
 }
