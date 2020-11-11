@@ -69,17 +69,17 @@ muteButton.onclick = () => {
 //   }
 // }
 
-function Hero(name) {
-  // const hero = Object.create(Hero.prototype);
-    this.name = name;
-}
+// function Hero(name) {
+//   // const hero = Object.create(Hero.prototype);
+//     this.name = name;
+// }
 
-Hero.prototype.saludar = function() {
-  console.log(`Hola soy ${this.name}`)
-}
+// Hero.prototype.saludar = function() {
+//   console.log(`Hola soy ${this.name}`)
+// }
 
-  const zelda = new Hero('Zelda')
-  zelda.saludar()
+//   const zelda = new Hero('Zelda')
+//   zelda.saludar()
 
-  const link = new Hero('Link')
-  link.saludar()
+//   const link = new Hero('Link')
+//   link.saludar()

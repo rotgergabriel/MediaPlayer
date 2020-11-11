@@ -36,3 +36,28 @@ MediaPlayer.prototype.unmute = function() {
 };
 
 export default MediaPlayer;
+
+// function person(name, lastName) {
+//   this.name=name;
+//   this.lastName=lastName;
+// }
+
+// person.prototype.saludar = function() {
+//   console.log(`Hola me llamo ${this.name} ${this.lastName}`)
+// }
+
+// const gabriel = new person('Gabriel', 'Rotger');
+
+// gabriel.saludar()
+
+const hello = function(lugar) {
+  console.log(`Hola me llamo ${this.name} ${this.lastName} y soy de ${lugar}`)
+}
+
+let person = {
+  name:'gabriel',
+  lastName: 'rotger'
+}
+
+hello.bind(person)
+
